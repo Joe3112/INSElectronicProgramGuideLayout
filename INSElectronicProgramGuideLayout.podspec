@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://inspace.io'
   s.authors  = 'inspace.io'
   s.source   = { :git => 'https://github.com/inspace-io/INSElectronicProgramGuideLayout.git', :tag => '1.1.1' }
-  s.source_files = 'INSElectronicProgramGuideLayout/*.{h,m}','INSElectronicProgramGuideLayout/Cells/*.{h,m,xib}'
+  s.source_files = 'INSElectronicProgramGuideLayout/*.{h,m}'
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
